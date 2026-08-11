@@ -7,7 +7,7 @@
 <a name="-magyar"></a>
 ## 🇭🇺 Magyar
 
-### 📌 A Projekt Eredete és Célja
+### A Projekt Eredete és Célja
 A projekt egy geopolitikai hobbikutatásból indult, amely során a **Közel-Kelet országainak és a globális Nukleáris hatalmaknak** az összetett mutatóit saját adatgyűjtés alapján, a nulláról építettem fel egy összetett Excel táblázatban.
 
 Az adathalmaz és a változók bővülésével – az SQL alapok elsajátítása után – a cél a saját magam által gyűjtött nyers adatok **átültetése és strukturálása lett egy skálázható, 3NF-ig normalizált relációs adatbázisba**. A projekt jól példázza a teljes adat-életciklust: az önálló adattervezéstől és adatgyűjtéstől kezdve a relációs architektúra kiépítésén át a komplex analitikai lekérdezések (VIEW) megírásáig.
@@ -22,7 +22,7 @@ Az adathalmaz és a változók bővülésével – az SQL alapok elsajátítása
 
 ---
 
-### 🏗️ Adatbázis Szerkezet
+### Adatbázis Szerkezet
 Az adatmodell 21 táblán keresztül fűzi össze a nemzeti mutatókat:
 * **Gazdaság és Erőforrások:** Fő exportcikkek, erőforrás-eloszlás és kereskedelmi partnerek.
 * **Geopolitika és Szövetségek:** Multilaterális szövetségek, diplomáciai kapcsolatok és aktív rivalizálások.
@@ -30,7 +30,7 @@ Az adatmodell 21 táblán keresztül fűzi össze a nemzeti mutatókat:
 
 ---
 
-### 📊 Elemzői Nézetek (4 Összetett VIEW)
+### Elemzői Nézetek (4 Összetett VIEW)
 Az aggregált adatok elemzésére és riportálására 4 komplex `CREATE VIEW` készült:
 
 1. **`View_Tengerszoros_Kereskedelem`**
@@ -47,7 +47,7 @@ Az aggregált adatok elemzésére és riportálására 4 komplex `CREATE VIEW` k
 <a name="-english"></a>
 ## 🇬🇧 English
 
-### 📌 Project Origin & Motivation
+### Project Origin & Motivation
 This project originated from a personal geopolitical research effort focusing on the **Middle East and global Nuclear Powers**. I independently collected the raw data and built the initial multi-indicator dataset from scratch in Excel.
 
 As the complexity of the data grew, I used this self-sourced dataset to practice and apply SQL fundamentals by **designing and migrating the flat file into a fully normalized (up to 3NF) relational database in SQLite**. This project demonstrates the complete end-to-end data workflow: from primary data collection and schema design to database administration and writing complex analytical views.
@@ -62,7 +62,7 @@ As the complexity of the data grew, I used this self-sourced dataset to practice
 
 ---
 
-### 🏗️ Database Architecture
+### Database Architecture
 The schema structures national metrics across 21 interconnected tables:
 * **Economic & Resource Profiles:** Primary export products, resource distributions, and trade partners.
 * **Geopolitical & Alliances:** Multilateral alliances, diplomatic ties, and active national rivalries.
@@ -70,7 +70,7 @@ The schema structures national metrics across 21 interconnected tables:
 
 ---
 
-### 📊 Analytical Views (4 Custom Views)
+### Analytical Views (4 Custom Views)
 To extract actionable insights from the normalized structure, 4 complex analytical views were developed:
 
 1. **`View_Tengerszoros_Kereskedelem`**
